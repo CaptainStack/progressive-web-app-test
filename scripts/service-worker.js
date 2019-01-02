@@ -66,7 +66,7 @@ self.addEventListener('fetch', function(e) {
     );
   } else {
     /*
-     * The app is asking for app shell files. In this scenario the app uses the
+     * The apps is asking for app shell files. In this scenario the app uses the
      * "Cache, falling back to the network" offline strategy:
      * https://jakearchibald.com/2014/offline-cookbook/#cache-falling-back-to-network
      */
